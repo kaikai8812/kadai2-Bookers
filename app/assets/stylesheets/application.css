@@ -39,3 +39,11 @@ td {
   margin: 100px;
 }
 /*tdは、marginの性質を持たない？*/
+
+.flash {
+  color: blue;
+}
+
+.alert {
+  color: red;
+}

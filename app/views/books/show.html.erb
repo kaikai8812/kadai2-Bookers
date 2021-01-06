@@ -1,3 +1,9 @@
+<% if flash[:notice] %>
+  <div class="flash">
+      <%= flash[:notice] %>
+  </div>
+<% end %>
+
 
 <div class = "show_area">
 <p> <strong>Title: </strong><%= "#{@book.title}" %> </p>
